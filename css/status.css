@@ -1,0 +1,79 @@
+.nav1{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 100px;
+	float: left;
+}
+.nav1 li{
+	width:130px;
+	height: 40px;
+	box-shadow: 2px 2px 2px #555;
+	margin-top: 7px;
+	text-indent: 10px;
+	background-color: #e4ecf5;
+	transition: all .15s ease-in 0s
+}
+.nav1 li a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	width: 130px;
+	color:#555;
+	transition: all .15s ease-in 0s;
+}
+.nav1 li:first-child{
+	width: 150px;
+	background-color: #1e6eb3;
+}
+.nav1 li:first-child a{
+	color: #fff;
+}
+
+.statusDiv{
+	position: absolute;
+	right:120px;
+}
+.statusTable{
+	text-align: left;
+	width:600px;
+	line-height: 30px;
+	border-collapse:collapse;
+}
+.statusTable th{
+	font-size: 18px;
+	font-weight: bold;
+}
+.statusTable td,th{
+	border: 1px solid #8ba7cc;
+}
+.statusDiv{
+	display: none;
+}
+.nowCate{
+	display: block;
+}
+.statusTable tr{
+	height: 40px;-
+}
+.statusTable tr:first-child{
+	height:50px;
+}
+.statusTable th:first-child{
+	width: 600px;
+	text-align: center;
+}
+.statusTable th:last-child{
+	width: 110px;
+	text-indent: 12px;
+}
+.statusTable td{
+	font-size: 15px;
+	text-indent: 10px;
+	font-family:"Microsoft YaHei";
+	position: relative;
+}
+.statusTable td img{
+	position: absolute;
+	left: 32px;
+	top: 5px;
+}

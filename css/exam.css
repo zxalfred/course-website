@@ -1,0 +1,52 @@
+#examDiv{
+	font-family: "Times New Roman";
+	font-weight: bold;
+	width: 600px;
+	height:320px;
+	margin:0 auto 0 auto;
+	font-size: 20px;
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: 5px;
+	padding: 10px 15px 10px 20px;
+}
+#examDiv span{
+	font-family: "Times New Roman";
+	font-weight: bold;
+	display: block;
+	text-indent: 2em;
+	font-size: 18px;
+	padding-top: 10px;
+}
+#examBtn{
+	display: block;
+	width:150px;
+	height: 50px; 
+	margin: 100px auto 0 auto;
+}
+#uploadExamDiv{
+	width: 260px;
+	margin: auto;
+	font-size: 16px;
+	padding:5px 10px 15px 50px;
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: 1px;
+	box-shadow:2px 2px 6px #888;
+}
+.examSelect{
+	display: inline-block;
+	margin-top: 15px;
+}
+.examSelect select{
+	width: 130px;
+	height:30px;
+}
+#submit{
+	margin-top: 20px;
+	width: 100px;
+	height: 30px;
+}
+#examExamDiv{
+	width: 240px;
+	margin: auto;
+	font-size: 16px;
+}

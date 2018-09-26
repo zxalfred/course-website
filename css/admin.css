@@ -1,0 +1,46 @@
+.adminTitle{
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 2px solid #8ba7cc;
+	margin: 0 2%;
+	padding: 0 0 5px 7px;
+}
+.manageDiv{
+	margin: 0 2%;
+	overflow: hidden;
+	font-size: 12px;
+}
+.manageDiv_l{
+	width: 140px;
+	float: left;
+	text-align: right;
+	margin: 0;
+	padding: 18px 0 0 0;
+}
+.manageDiv_r{
+	margin-left: 145px;
+	padding: 14px 0 20px 10px;
+}
+#pwResetInput{
+	height: 20px;
+	width: 160px;
+	font-size: 14px;
+	text-indent: 3px;
+	display: inline-block;
+}
+#pwResetBtn{
+	width: 45px;
+	height:23px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.manageDiv_r div{
+	margin-top: 5px;
+	font-size: 12px; 
+	color: #999;
+}
+#updateListBtn,#updateExamBtn{
+	height: 23px;
+	width: 70px;
+	margin-top: 10px;
+}

@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+.introDiv{
+	height:230px;
+	margin-bottom: 20px;
+}
+.introPic{
+	width:350px;
+	height:230px;
+	background: url(../pic/chemoinformatics.jpg) no-repeat;
+	background-size: cover;
+	float:left;
+}
+.introduct{
+	width:660px;
+	float:right;
+	font-size:15px;
+}
+.introTitle{
+	border-bottom:2px solid #2f96cc;
+	font-size:15px;
+	font-weight:bold;
+	text-indent:.5em;
+	padding-bottom:5px;
+}
+.introBody{
+	padding:8px 8px 0 8px;
+	line-height:24px;
+	text-indent:2em;
+}
+.sidebar{
+	width:230px;
+	float: left;
+}
+.infoTitle{
+	width:246px;
+	border-bottom: 2px solid #2f96cc;
+	padding-left:4px; 
+}
+.infoTitle li{
+	width:65px;
+	height:20px;
+	line-height:20px;
+	color:#777;
+	text-align:center;
+	display: inline-block;
+	cursor: pointer;
+}
+.infoTitle li.active{
+	font-weight: bold;
+	font-size:15px;
+	color:#000;
+}
+.infoBody{
+	width:233px;
+	border:1px solid #bbb;
+	border-top:none;
+	padding:15px 0px 5px 15px;
+	display:none;
+}
+.infoBody li{
+	height:auto;
+	line-height: 25px;
+}
+.current{
+	display:block;
+}
+.message{
+	width:750px;
+	height: 192px;
+	font-size: 15px;
+	float: right;
+	overflow: hidden;
+}
+.mesTitle{
+	font-weight: bold;
+	border-bottom:2px solid #2f96cc;
+	text-indent:.5em;
+	padding-bottom:4px;
+}
+.mesBody{
+	padding:10px 8px 8px 25px;
+	overflow: hidden;
+}
+.mesBody ul li{
+	height: 22px;
+	line-height: 22px;
+	list-style-type:circle;
+	font-family:  "宋体";
+}
+.mesBody ul li a{
+	font-family:  "宋体";
+	color:#000;
+}
+.mesBody ul li a:hover{
+	color:#ed553b;
+}
+.mesBody ul li .mesTime{
+	float: right;
+	font-family:  "宋体";
+}

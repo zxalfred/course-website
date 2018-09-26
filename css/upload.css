@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+#uploadDiv{
+	width: 240px;
+	margin: auto;
+	font-size: 16px;
+	padding:5px 10px 15px 15px;
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: 2px;
+	box-shadow:2px 2px 6px #888;
+}
+.uploadSelect{
+	display: inline-block;
+	margin-top: 15px;
+}
+#submit{
+	margin-top: 20px;
+	width: 100px;
+	height: 30px;
+}
+#uploadExamDiv{
+	width: 240px;
+	margin: auto;
+	font-size: 16px;
+}

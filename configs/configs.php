@@ -1,0 +1,13 @@
+<?php
+//数据库配置
+define("DB_HOST","localhost");
+define("DB_USER","root");
+define("DB_PWD","6543212");
+define("DB_DBNAME","icpc");
+define("DB_CHARSET","utf8");
+//上传文件最大大小
+define("FILESIZE",52428800);
+//管理员帐号密码
+define("ADMIN_NAME","root");
+define("ADMIN_PW","admin");
+?>
